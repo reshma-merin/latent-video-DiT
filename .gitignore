@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data and latents (regenerate with data.py and cache_latents.py)
+data/
+
+# Checkpoints and training logs (large)
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Generated clips (large arrays); small GIFs in assets/ are kept
+samples/*.npy
+samples/*.gif
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
